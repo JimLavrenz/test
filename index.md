@@ -16,12 +16,6 @@
 </script>
   </head>
 <body>
-\newcommand{\N}{\mathbb{N}}
-\newcommand{\Q}{\mathbb{Q}}
-\newcommand{\Z}{\mathbb{Z}}
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\C}{\mathbb{C}}
-
 # Math for Computer Science
 # Jim Lavrenz
 
@@ -63,9 +57,9 @@ $$\sin\theta=y,\ \cos\theta=x,\ \tan\theta=\frac{\text{y}}{\text{x}}$$
 $$x=\cos\theta,\ y=\sin\theta,\ \frac{y}{x}=\text{tan}\theta$$
 
 Common angles in the first quadrant
-$$\sin 30^{\circ} = \frac{1}{2},\ \cos 30\degree = \frac{\sqrt{3}}{2}$$
-$$\sin 45\degree = \frac{\sqrt{2}}{2},\ \cos 45\degree = \frac{\sqrt{2}}{2}$$
-$$\sin 60\degree = \frac{\sqrt{3}}{2},\ \cos 60\degree = \frac{1}{2}$$
+$$\sin 30^{\circ} = \frac{1}{2},\ \cos 30^{\circ} = \frac{\sqrt{3}}{2}$$
+$$\sin 45^{\circ} = \frac{\sqrt{2}}{2},\ \cos 45^{\circ} = \frac{\sqrt{2}}{2}$$
+$$\sin 60^{\circ} = \frac{\sqrt{3}}{2},\ \cos 60^{\circ} = \frac{1}{2}$$
 
 
 #### The Archimedean Principle
@@ -130,26 +124,26 @@ Where $r$ is the number of items chosen
 Reminder: $n!=n(n-1)(n-2)...3*2*1$
 Where $0!$ is defined to be 1. So the first factorials are,
 
-0!=1
+0!=1  
   
-1!=1
+1!=1. 
   
-2!=2
+2!=2. 
   
-3!=6
+3!=6. 
   
-4!=24
+4!=24. 
   
-5!=120
+5!=120. 
   
-6!=720
+6!=720. 
   
-7!=5040
+7!=5040. 
   
-8!=40320
+8!=40320  
   
-9!=362880
-  
+9!=362880. 
+
 10!=3628800
 
 Note $n!>exp(x)$ which is to say n! grows faster than the expontial function. The only funtion that grows faster is a function of the form $exp^{exp(x)}$ called a double exponential.
