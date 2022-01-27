@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
 <html>
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
@@ -11,5 +9,12 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
         onload="renderMathInElement(document.body);"></script>
   </head>
-  $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$
+$$\begin{aligned}
+\sum_{i=1}^n (x_i - \bar{x}) &= \sum_{i=1}^n x_i - \sum_{i=1}^n \bar{x}\\
+&= \sum_{i=1}^n x_i - n \bar{x}\\
+&= \sum_{i=1}^n x_i - n \sum_{i=1}^n \frac{x_i}{n}\\
+&\text{(after pulling out n and cancelling we have,)}\\
+&= \sum_{i=1}^n x_i - \sum_{i=1}^n {x_i}\\
+&= \sum_{i=1}^n (x_i - x_i)=0\\
+\end{aligned}$$
 </html>
