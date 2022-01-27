@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
 <html>
   <head>
    <script type="text/x-mathjax-config">
@@ -15,8 +13,8 @@
         src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
   </head>
-<body>
-# Math for Computer Science
+
+  # Math for Computer Science
 # Jim Lavrenz
 
 ## Analytic Geometry
@@ -148,7 +146,6 @@ Where $0!$ is defined to be 1. So the first factorials are,
 
 Note $n!>exp(x)$ which is to say n! grows faster than the expontial function. The only funtion that grows faster is a function of the form $exp^{exp(x)}$ called a double exponential.
 
-
 ### Combinations
 
 $$C=\frac{n!}{(n-r)!r!}$$
@@ -168,5 +165,3 @@ if $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} f(x) = M$ then,
 $$
 \lim_{x \to a} f(x) + \lim_{x \to a} g(x) = L+M
 $$
-</body>
-</html>
