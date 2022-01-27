@@ -1,3 +1,9 @@
+---
+title: "Math Notes"
+author: "Jim Lavrenz"
+date: "Today, Jan 27, 2022"
+header-includes: \usepackage{graphicx, verbatim, fancyvrb, setspace, xspace, colortbl, longtable, amsmath, caption, xfrac, float, mathabx}
+---
   <head>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -13,7 +19,7 @@
 </script>
   </head>
 
-  # Math for Computer Science
+# Math for Computer Science
 # Jim Lavrenz
 
 ## Analytic Geometry
@@ -22,7 +28,7 @@
 
 $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$
 
-where $a, b \in \mathbb{R} \text{ and } a^2>b^2$
+where $ a, b \in \mathbb{R} \text{ and } a^2>b^2 $
 
 ### Trigonometry
 
@@ -108,32 +114,22 @@ $$P=\frac{n!}{(n-r)!}$$
 Where $r$ is the number of items chosen 
 
 Reminder: $n!=n(n-1)(n-2)...3*2*1$
-
 Where $0!$ is defined to be 1. So the first factorials are,
 
-0!=1  
-  
-1!=1. 
-  
-2!=2. 
-  
-3!=6. 
-  
-4!=24. 
-  
-5!=120. 
-  
-6!=720. 
-  
-7!=5040. 
-  
-8!=40320  
-  
-9!=362880. 
-
+0!=1\
+1!=1\
+2!=2\
+3!=6\
+4!=24\
+5!=120\
+6!=720\
+7!=5040\
+8!=40320\
+9!=362880\
 10!=3628800
 
 Note $n!>exp(x)$ which is to say n! grows faster than the expontial function. The only funtion that grows faster is a function of the form $exp^{exp(x)}$ called a double exponential.
+
 
 ### Combinations
 
