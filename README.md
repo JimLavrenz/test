@@ -1,9 +1,3 @@
----
-title: "Math Notes"
-author: "Jim Lavrenz"
-date: "Today, Jan 27, 2022"
-header-includes: \usepackage{graphicx, verbatim, fancyvrb, setspace, xspace, colortbl, longtable, amsmath, caption, xfrac, float, mathabx}
----
 <!DOCTYPE html>
 <!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
 <html>
@@ -17,10 +11,7 @@ header-includes: \usepackage{graphicx, verbatim, fancyvrb, setspace, xspace, col
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
         onload="renderMathInElement(document.body);"></script>
   </head>
-  ...
-</html>
-
-\newcommand{\N}{\mathbb{N}}
+  \newcommand{\N}{\mathbb{N}}
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\R}{\mathbb{R}}
@@ -157,3 +148,5 @@ if $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} f(x) = M$ then,
 $$
 \lim_{x \to a} f(x) + \lim_{x \to a} g(x) = L+M
 $$
+
+</html>
