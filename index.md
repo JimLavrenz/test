@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <!DOCTYPE html>
 <script type="text/javascript" src="path-to-MathJax/MathJax.js"></script>
 </head>
 \newcommand{\N}{\mathbb{N}}
