@@ -41,8 +41,8 @@ $ x^2 $
 
 $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$
 
-where $a, b \in \R \text{ and } a^2>b^2$
-where \(a, b \in \R \text{ and } a^2>b^2\)
+where $a, b \in \mathbb{R} \text{ and } a^2>b^2$
+where \(a, b \in \mathbb{R} \text{ and } a^2>b^2\)
 
 ### Trigonometry
 
@@ -130,16 +130,26 @@ Where $r$ is the number of items chosen
 Reminder: $n!=n(n-1)(n-2)...3*2*1$
 Where $0!$ is defined to be 1. So the first factorials are,
 
-0!=1\
-1!=1\
-2!=2\
-3!=6\
-4!=24\
-5!=120\
-6!=720\
-7!=5040\
-8!=40320\
-9!=362880\
+0!=1
+  
+1!=1
+  
+2!=2
+  
+3!=6
+  
+4!=24
+  
+5!=120
+  
+6!=720
+  
+7!=5040
+  
+8!=40320
+  
+9!=362880
+  
 10!=3628800
 
 Note $n!>exp(x)$ which is to say n! grows faster than the expontial function. The only funtion that grows faster is a function of the form $exp^{exp(x)}$ called a double exponential.
