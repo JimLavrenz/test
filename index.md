@@ -20,20 +20,9 @@
 ### Ellipse
 #### Equation of an Ellipse centered at the origin.
 
-$$ x^2 $$
-
-$ x^2 $
-
-\[ x^2 \]
-
-\( x^2 \)
-
-
-
 $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$
 
 where $a, b \in \mathbb{R} \text{ and } a^2>b^2$
-where \(a, b \in \mathbb{R} \text{ and } a^2>b^2\)
 
 ### Trigonometry
 
@@ -119,6 +108,7 @@ $$P=\frac{n!}{(n-r)!}$$
 Where $r$ is the number of items chosen 
 
 Reminder: $n!=n(n-1)(n-2)...3*2*1$
+
 Where $0!$ is defined to be 1. So the first factorials are,
 
 0!=1  
