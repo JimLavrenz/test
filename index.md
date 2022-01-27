@@ -63,7 +63,7 @@ $$\sin\theta=y,\ \cos\theta=x,\ \tan\theta=\frac{\text{y}}{\text{x}}$$
 $$x=\cos\theta,\ y=\sin\theta,\ \frac{y}{x}=\text{tan}\theta$$
 
 Common angles in the first quadrant
-$$\sin 30\degree = \frac{1}{2},\ \cos 30\degree = \frac{\sqrt{3}}{2}$$
+$$\sin 30^{\circ} = \frac{1}{2},\ \cos 30\degree = \frac{\sqrt{3}}{2}$$
 $$\sin 45\degree = \frac{\sqrt{2}}{2},\ \cos 45\degree = \frac{\sqrt{2}}{2}$$
 $$\sin 60\degree = \frac{\sqrt{3}}{2},\ \cos 60\degree = \frac{1}{2}$$
 
