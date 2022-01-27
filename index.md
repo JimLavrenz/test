@@ -23,7 +23,7 @@
 $$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$
 
 where $a, b \in \R \text{ and } a^2>b^2$
-where \[a, b \in \R \text{ and } a^2>b^2\]
+where \(a, b \in \R \text{ and } a^2>b^2\)
 
 ### Trigonometry
 
